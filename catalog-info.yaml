@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rag-runbook-search-v2
+  description: RAG search over runbooks
+  annotations:
+    github.com/project-slug: rajuapex/rag-runbook-search-v2
+    genai-platform-lab/data-classification: internal
+    genai-platform-lab/model-alias: fast
+    genai-platform-lab/monthly-token-budget: "1000000"
+  tags: [genai, rag, python]
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/guest
